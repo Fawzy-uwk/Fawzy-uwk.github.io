@@ -86,7 +86,7 @@ function Shortner() {
         setError("This shortened link already exists in the list.");
       }
     } catch (error) {
-      if (error) setError("Please insert a link");
+      if (error) setError("Please insert a valid link");
       console.log(error);
     }
   };
